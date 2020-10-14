@@ -1,6 +1,6 @@
 package net.codejava;
 
-public class User {
+public class Student {
 	private String Name;
 	private String USN;
 	private String email;
@@ -38,6 +38,6 @@ public class User {
 	}
 	@Override
 	public String toString() {
-		return "User [Name=" + Name + ", USN=" + USN + ", email=" + email + ", psw=" + psw + ", repeat=" + repeat + "]";
+		return "Student [Name=" + Name + ", USN=" + USN + ", email=" + email + ", psw=" + psw + ", repeat=" + repeat + "]";
 	}
 }
