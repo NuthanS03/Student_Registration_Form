@@ -40,4 +40,4 @@ public class User {
 	public String toString() {
 		return "User [Name=" + Name + ", USN=" + USN + ", email=" + email + ", psw=" + psw + ", repeat=" + repeat + "]";
 	}
-	}
+}
